@@ -1,0 +1,204 @@
+:root{
+    --cor-branco: #ffffff;
+    --cor-preto: #00030c;
+    --cor-cinza: #868585;
+    --cor-azul: #167BF7;
+    --fonte-principal: 'Inter';
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--cor-preto);
+}
+/* ------------------------------1°seção-------------------------- */
+.secao_1{
+    background-image: url(../assets/Background.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+.quadrado_1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    margin: 10% auto 10% 10%;
+}
+.text_1{
+    color: var(--cor-branco);
+    font-family: var(--fonte-principal);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+}
+.img_1{
+    margin: 3% 20%;
+}
+.link_1{
+    color: var(--cor-branco);
+    text-decoration: none ;
+    background-color: var(--cor-azul);
+    padding: 1rem;
+    margin: 0 12%;
+    border-radius: 8px;
+}
+.link_2{
+    color: var(--cor-branco);
+    text-decoration: none ;
+    background-color: transparent;
+    padding: 1rem;
+    margin: 0 12%;
+    border: 1px solid var(--cor-branco);
+    border-radius: 8px;    
+}
+.text_2{
+    color: var(--cor-cinza);
+    font-family: var(--fonte-principal);
+    font-size: 12px;
+    font-weight: 400;    
+}
+/* ------------------------------2°seção-------------------------- */
+.secao_2{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: left;
+}
+.img_2{
+    margin-left: 10%;
+}
+.text_3{
+    color: var(--cor-branco);
+    font-family: var(--fonte-principal);
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.text_4{
+    color: var(--cor-cinza);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* ------------------------------3°seção-------------------------- */
+.secao_3{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: left;
+}
+.quadrado_3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    gap: 0.5rem;
+}
+.img_3{
+    margin-left: 10%;
+}
+.text_5{
+    color: var(--cor-cinza);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;   
+}
+.link_3{
+    color: var(--cor-branco);
+    text-decoration: none ;
+    background-color: var(--cor-azul);
+    padding: 1rem;
+    border-radius: 8px;
+    width: fit-content;
+}
+/* ------------------------------4°seção-------------------------- */
+.secao_4{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: left;
+}
+.quadrado_4{
+    margin-right: 5%;
+}
+.img_4{
+    margin-left: 10%;
+}
+.text_6{
+    color: var(--cor-branco);
+    font-family: var(--fonte-principal);
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.text_7{
+    color: var(--cor-cinza);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* ------------------------------5°seção-------------------------- */
+.secao_5{
+    margin-top:5rem;
+}
+.text_8{
+    color: var(--cor-branco);
+    font-family: var(--fonte-principal);
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-align: center;    
+}
+.quadrado_5{
+    display: flex;
+    text-align: center;
+    justify-content: center ;
+}
+.leg{
+    color: var(--cor-branco);
+    font-family: var(--fonte-principal);
+    font-size: 32px;
+    font-weight: 700;
+    list-style-type: none;
+}
+/* ------------------------------footer-------------------------- */
+.secao_6{
+    margin-top: 8rem;
+}
+.img_5{
+    margin: auto;
+    display: block;
+}
+.quadrado_6{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+.link_4{
+    color: var(--cor-branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.text_9{
+    color: var(--cor-cinza);
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.text_10{
+    color: var(--cor-cinza);
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 2rem;
+}
